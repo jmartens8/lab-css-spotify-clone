@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* ----------- Section one -----------*/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#section-one {
+    width: 100%;
+    box-sizing: border-box;
+    background-image:url(/images/landing.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    border: purple solid 1px;
+    
+}
+
+header {
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #FFF;
+    position: fixed;
+    margin: 0;
+}
+
+#spotify-logo {
+    height: 80%;
+}
+
+ul{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#background-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 64px;
+}
+
+#article-top {
+    color: #FFF;
+    font-size: 16px;
+}
+
+/* ----------- Section two -----------*/
+
+#section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.container > div {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container > div > img {
+    width: 60px;
+    height: 55px;
+}
+
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+}
+
+h3 {
+    font-weight: bold;
+    color: #00B172;
+}
+
+/* ----------- Section three -----------*/
+
+#section-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #00B172;
+    color: #FFF;
+    
+}
+.kanye > h3 {
+    color: #FFF;
+}
+
+.kanye > h2{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+}
+
+.kanye{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.app-picture{
+    width: 50%;
+    margin: 60px;
+}
+
+#section-three > img{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+}
