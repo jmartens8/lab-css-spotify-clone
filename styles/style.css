@@ -23,19 +23,22 @@ body {
     background-size: cover;
     margin: 0;
     border: purple solid 1px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+
 header {
+    position: fixed;
+    top: 0;
     width: 100vw;
-    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 60px;
     background-color: #FFF;
-    position: fixed;
     margin: 0;
 }
 
@@ -61,6 +64,8 @@ ul{
 h1 {
     color: #FFF;
     font-size: 64px;
+    padding: 0;
+    margin: 0
 }
 
 #article-top {
@@ -101,8 +106,8 @@ h1 {
 
 h2 {
     font-weight: bold;
-    text-decoration: underline;
-    text-decoration-color: #00B172;
+    padding-bottom: 2px;
+    border-bottom: 2px #00B172 solid;
 }
 
 h3 {
@@ -113,39 +118,41 @@ h3 {
 /* ----------- Section three -----------*/
 
 #section-three {
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0px 20px;
     background-color: #00B172;
     color: #FFF;
     
 }
-.kanye > h3 {
+.artist-description > h3 {
     color: #FFF;
 }
 
-.kanye > h2{
+.artist-description > h2{
     font-weight: bold;
     text-decoration: underline;
     text-decoration-color: #FFF;
 }
 
-.kanye{
-    margin: 20px;
+.artist-description{
+    border: black 2px solid;
+    width: 200px
+    padding: 50px;
     display: flex;
     flex-direction: column;
-
 }
 
-.app-picture{
+.artist-picture{
     width: 50%;
-    margin: 60px;
+    padding: 50px;
+    border: black 2px solid;
+    
 }
 
-#section-three > img{
+#white-logo{
+    border: black 2px solid;
     position: absolute;
     height: 150px;
     width: 150px;
